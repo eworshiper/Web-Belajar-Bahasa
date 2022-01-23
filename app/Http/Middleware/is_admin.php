@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
-class IsGuru
+class is_admin
 {
     /**
      * Handle an incoming request.
@@ -16,7 +16,7 @@ class IsGuru
      */
     public function handle(Request $request, Closure $next)
     {
-        if(auth()->user()->is_guru == 1){
+        if(auth()->user()->is_admin == 1){
             return $next($request);
         }
    

@@ -1,236 +1,261 @@
-#body{
-    background-color: #F0F0F0;
+#body {
+    background-color: #f0f0f0;
+    background-image: url('https://drive.google.com/uc?export=view&id=1uFjupSDn9ecTCLLmAgw3X3YtszjC7CtZ');
+    background-repeat: no-repeat;
+    background-size: 110%;
 }
-#navbar{
-    background-color: #FFFFFF;
-    padding-top: 10px; padding-bottom: 10px;
-    box-shadow: 0px 1px 4px grey
+#navbar {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 4px grey;
 }
-#projectname{
-    font-family: 'Montserrat';
+#projectname {
+    font-family: "Montserrat";
     font-size: 18px;
     text-shadow: 2px 2px 2px grey;
-    color: #E2C2B9;
-    padding-left: 10px
+    color: #e2c2b9;
+    padding-left: 10px;
 }
-#menunavbar{
-    font-family: 'Montserrat';
-    color: #99A799
+#menunavbar {
+    font-family: "Montserrat";
+    color: #99a799;
 }
-#username{
-    font-family: 'Montserrat';
-    color: #99A799;
-    text-decoration: none
+#username {
+    font-family: "Montserrat";
+    color: #99a799;
+    text-decoration: none;
 }
-#listnavbar{
+#listnavbar {
     padding-top: 5px;
-    padding-left: 20px
+    padding-left: 20px;
 }
-#loginbutton{
-    font-family: 'Montserrat';
+#loginbutton {
+    font-family: "Montserrat";
     font-size: 14px;
-    background-color: #99A799;
+    background-color: #99a799;
     color: white;
     text-decoration: none;
     box-shadow: 0px 2px 4px grey;
     padding: 6px 18px;
-    border-radius: 6px
+    border-radius: 6px;
 }
-#registerbutton{
-    font-family: 'Montserrat';
+#registerbutton {
+    font-family: "Montserrat";
     font-size: 14px;
-    background-color: #99A799;
+    background-color: #99a799;
     color: white;
     text-decoration: none;
     box-shadow: 0px 2px 4px grey;
     padding: 6px 24px;
-    border-radius: 6px
+    border-radius: 6px;
 }
-#ad{
-    font-family: 'Montserrat';
-    color: #99A799;
-    padding-top: 200px
+#ad {
+    font-family: "Montserrat";
+    color: #99a799;
+    padding-top: 200px;
 }
-#denganjarsa{
-    color: #E2C2B9;
-    text-shadow: 2px 2px 4px #000000
+#ad2 {
+    font-family: "Montserrat";
+    color: #99a799;
 }
-#segera{
-    font-family: 'Montserrat';
-    color: #99A799;
+#denganjarsa {
+    color: #e2c2b9;
+    text-shadow: 2px 2px 4px #000000;
+}
+#segera {
+    font-family: "Montserrat";
+    color: #99a799;
     font-size: 20px;
-    padding-top: 50px
+    padding-top: 50px;
 }
-#container{
+#container {
     min-height: 100vh;
-    display: flex
+    display: flex;
 }
-.leftregister{
+.leftregister {
     width: 65vw;
-    background-color: #D3E4CD
+    background-color: #d3e4cd;
 }
-.rightregister{
+.rightregister {
     width: 35vw;
-    background-color: #FFFFFF
-}.leftlogin{
+    background-color: #ffffff;
+}
+.leftlogin {
     width: 65vw;
-    background-color: #D3E4CD
+    background-color: #d3e4cd;
 }
-.rightlogin{
+.rightlogin {
     width: 35vw;
-    background-color: #FFFFFF
+    background-color: #ffffff;
 }
-.leftkursus{
+.leftkursus {
     width: 20vw;
-    background-color: #99A799
+    background-color: #99a799;
 }
-.rightkursus{
+.rightkursus {
     width: 80vw;
-    background-color: #F0F0F0;
-    position: relative
+    background-color: #f0f0f0;
+    position: relative;
 }
-#gambar{
-    padding-top: 70px
+#gambar {
+    padding-top: 70px;
 }
-#icon{
-    color: #99A799
+#icon {
+    color: #99a799;
 }
-#video{
-    top: 10%; right: 18%;
+#video {
+    top: 10%;
+    right: 18%;
     position: absolute;
 }
-#titlekursus{
-    font-family: 'Montserrat';
-    color: #99A799;
+#titlekursus {
+    font-family: "Montserrat";
+    color: #99a799;
     padding-top: 50px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
-#kartu{
-    background-color: #D3E4CD
+#kartu {
+    background-color: #d3e4cd;
 }
-#titlekartu{
-    font-family: 'Montserrat';
-    color: #99A799;
+#titlekartu {
+    font-family: "Montserrat";
+    color: #99a799;
 }
-#kontenkartu{
-    font-family: 'Montserrat';
-    color: #99A799;
-    font-size: 16px
+#kontenkartu {
+    font-family: "Montserrat";
+    color: #99a799;
+    font-size: 16px;
 }
-#pilih{
-    font-family: 'Montserrat';
+#pilih {
+    font-family: "Montserrat";
     font-size: 14px;
-    background-color: #99A799;
+    background-color: #99a799;
     color: white;
     text-decoration: none;
     box-shadow: 0px 2px 4px grey;
     padding: 4px 100px;
-    border-radius: 6px
+    border-radius: 6px;
 }
-#pilihjeniskursus{
-    font-family: 'Montserrat';
+#pilihjeniskursus {
+    font-family: "Montserrat";
     font-size: 14px;
-    background-color: #D3E4CD;
-    color: #99A799;
+    background-color: #d3e4cd;
+    color: #99a799;
     text-decoration: none;
     box-shadow: 0px 2px 4px grey;
     padding: 20px 80px;
-    border-radius: 6px
+    border-radius: 6px;
 }
-#pilihpembelajaran{
-    font-family: 'Montserrat';
+#pilihpembelajaran {
+    font-family: "Montserrat";
     font-size: 16px;
-    background-color: #FFFFFF;
-    color: #99A799;
+    background-color: #ffffff;
+    color: #99a799;
     text-decoration: none;
     box-shadow: 0px 2px 4px grey;
     padding: 10px 20px;
     padding-top: 10px;
-    border-radius: 6px
+    border-radius: 6px;
 }
-#titlegrammar{
-    font-family: 'Montserrat';
-    color: #99A799;
+#titlegrammar {
+    font-family: "Montserrat";
+    color: #99a799;
     padding-top: 40px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
-h2{
-    font-family: 'Montserrat';
-    color: #E2C2B9;
+h2 {
+    font-family: "Montserrat";
+    color: #e2c2b9;
     text-shadow: 2px 2px 4px grey;
 }
-p{
-    font-family: 'Montserrat';
+p {
+    font-family: "Montserrat";
     font-size: 16px;
-    color: #E2C2B9;
-    text-shadow: 1px 1px 2px grey
-}
-#konten{
-    font-family: 'Montserrat';
-    color: #99A799;
-    font-size: 20px
-}
-#titledaftar{
-    font-family: 'Montserrat';
-    color: #E2C2B9;
+    color: #e2c2b9;
     text-shadow: 1px 1px 2px grey;
 }
-#titlemasuk{
-    font-family: 'Montserrat';
-    color: #E2C2B9;
+#konten {
+    font-family: "Montserrat";
+    color: #99a799;
+    font-size: 20px;
+}
+#titledaftar {
+    font-family: "Montserrat";
+    color: #e2c2b9;
     text-shadow: 1px 1px 2px grey;
 }
-#titleprofil{
-    font-family: 'Montserrat';
-    color: #99A799;
+#titlemasuk {
+    font-family: "Montserrat";
+    color: #e2c2b9;
+    text-shadow: 1px 1px 2px grey;
+}
+#titleprofil {
+    font-family: "Montserrat";
+    color: #99a799;
     padding-top: 20px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
-#labeldaftar{
-    font-family: 'Montserrat';
-    color: #99A799
+#labeldaftar {
+    font-family: "Montserrat";
+    color: #99a799;
 }
-#labellogin{
-    font-family: 'Montserrat';
-    color: #99A799
+#labellogin {
+    font-family: "Montserrat";
+    color: #99a799;
 }
-#tombol{
-    font-family: 'Montserrat';
+#tombol {
+    font-family: "Montserrat";
     font-size: 14px;
-    background-color: #99A799;
-    color: white
+    background-color: #99a799;
+    color: white;
 }
-#grammar{
+#grammar {
     list-style: none;
-    -webkit-padding-start: 0px
+    -webkit-padding-start: 0px;
 }
-#aligngrammar{
+#aligngrammar {
     vertical-align: middle;
     margin-right: 10px;
-    padding-top: 9px
+    padding-top: 9px;
 }
-#kontengrammar{
-    font-family: 'Montserrat';
-    color: #99A799;
+#kontengrammar {
+    font-family: "Montserrat";
+    color: #99a799;
     font-size: 16px;
     padding-left: 50px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
-.buttonpositionkursus{
+.buttonpositionkursus {
     position: absolute;
     bottom: 5%;
-    transform: translateX(30%)
+    transform: translateX(30%);
 }
-.buttonpositionvideo{
+.buttonpositionvideo {
     position: absolute;
-    bottom: 5%; right: 16.5%;
+    bottom: 5%;
+    right: 16.5%;
 }
-#btnsimpan{
-    background-color: #99A799;
-    color: #FFFFFF;
-    box-shadow: 0px 1px 4px grey
+#btnsimpan {
+    background-color: #99a799;
+    color: #ffffff;
+    box-shadow: 0px 1px 4px grey;
 }
-#btncancel{
-    color: #99A799;
-    box-shadow: 0px 1px 4px grey
+#btncancel {
+    color: #99a799;
+    box-shadow: 0px 1px 4px grey;
+}
+#kontensoal {
+    font-family: "Montserrat";
+    color: #99a799;
+    font-size: 16px;
+}
+#btnsubmitsoal {
+    box-shadow: 0px 1px 4px grey;
+}
+#titlewithicon {
+    font-family: "Montserrat";
+    color: #99a799;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }

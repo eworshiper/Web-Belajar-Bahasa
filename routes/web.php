@@ -24,4 +24,20 @@ Route::post('/Register', [MainController::class, 'daftar']);
 // User
 Route::get('/Login', [MainController::class, 'login'])->middleware('guest');
 Route::post('/Login', [MainController::class, 'authenticate'])->name('login-user');
+Route::get('/PilihKursus', [MainController::class, 'pilih_kursus'])->middleware('auth');
+Route::get('/Kursus', [MainController::class, 'kursus'])->middleware('auth');
+Route::get('/Profile', [MainController::class, 'profile'])->middleware('auth');
+Route::get('/result', [MainController::class, 'result'])->middleware('auth');
+Route::post('/Profile', [MainController::class, 'profile_updates'])->name('update_profile')->middleware('auth');
 Route::post('/Logout', [MainController::class, 'logout']);
+
+// Sub Course Inggris
+Route::get('/Sub-Course', [MainController::class, 'subcourse'])->middleware('auth');
+Route::get('/Video-Pembelajaran', [MainController::class, 'videopembelajaran'])->middleware('auth');
+Route::get('/Latihan-Soal', [MainController::class, 'latihansoal'])->middleware('auth');
+
+// Admin
+Route::get('/Admin', [MainController::class, 'admin'])->middleware('is_admin');
+
+// Guru
+Route::get('/Guru', [MainController::class, 'guru'])->middleware('is_guru');

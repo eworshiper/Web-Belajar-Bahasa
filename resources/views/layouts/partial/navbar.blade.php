@@ -8,7 +8,7 @@
                     <a id="menunavbar" class="nav-link active" aria-current="page" href="/Home">Beranda</a>
                 </li>
                 <li id="listnavbar" class="nav-item">
-                    <a id="menunavbar" class="nav-link" href="">Kursus</a>
+                    <a id="menunavbar" class="nav-link" href="/PilihKursus">Kursus</a>
                 </li>
             </ul>
         </div>
@@ -20,7 +20,7 @@
                 {{ auth()->user()->nama_pengguna }}
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a id="username" class="dropdown-item" href="">Profil</a></li>
+                <li><a id="username" class="dropdown-item" href="/Profile">Profil</a></li>
                 <li>
                     <form action="/Logout" method="post">
                         @csrf
